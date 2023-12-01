@@ -15,7 +15,7 @@ export const SobreMim = styled.p`
 color:white;
 width:30vw;
 height:60vh;
-font-size:24px;
+font-size:26px;
 font-family: Dancing script, serif;
 line-height:31px;
 `
