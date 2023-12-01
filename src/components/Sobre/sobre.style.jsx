@@ -6,6 +6,9 @@ align-items:center;
 justify-content:space-evenly;
 background-color:#A577FA;
 height:88vh;
+a{
+    text-decoration:none;
+}
 `
 
 export const SobreMim = styled.p`
@@ -14,6 +17,7 @@ width:30vw;
 height:60vh;
 font-size:24px;
 font-family: Dancing script, serif;
+line-height:31px;
 `
 
 export const FotoSobre = styled.img`
@@ -23,6 +27,7 @@ padding-top:60px;
 ` 
 
 export const Link = styled.p`
-text-decoration:none;
-color:black;
+&:hover{
+text-decoration:underline;
+}
 `
