@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const Main = styled.section`
 height:88vh;
-background-image:url("src/assets/Foto_fundo.jpg");
+background-image:url("src/assets/FundoTela.jpg");
 background-size:100%;
 `
 
@@ -17,6 +17,7 @@ export const Resumo = styled.p`
 font-size:30px;
 width:50vw;
 font-family:Dancing Script, serif;
+color: white;
 `
 export const FotoInicio = styled.img`
 width: 30vw;
