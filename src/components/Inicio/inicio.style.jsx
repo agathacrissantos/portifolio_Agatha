@@ -33,6 +33,11 @@ nav{
     padding-left: 180px;
     padding-top: 160px;
 }
+a:hover{
+    cursor: pointer;
+    transform: scale(120%);
+}
+
 img{
     height: 6vh;
     width: auto;
@@ -51,10 +56,6 @@ font-size:30px;
 width:50vw;
 font-family:Dancing Script, serif;
 color: white;
-`
-export const Icones = styled.a`
-width:20vw;
-height: 20vh;
 `
 
 export const FotoInicio = styled.img`
