@@ -20,7 +20,7 @@ export default function Projetos() {
                         <a href="https://desafio-react-calculadora.vercel.app/" target="_blank">
                             <S.Imagem src={Calculadora} alt="Projeto calculadora" />
                         </a>
-                        <h4>Esse projeto foi desenvolvido com ReactJs,styled-components,@media, funções e muita lógica de programação. Clique na imagem e acesse o deploy ou clique no link do meu github no início.</h4>
+                        <h4>Esse projeto foi desenvolvido com ReactJs,styled-components,@media para responsividade, funções e muita lógica de programação. Clique na imagem e acesse o deploy ou clique no link do meu github no início.</h4>
                     </S.Figure>
                 </S.Container>
 

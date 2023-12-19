@@ -3,6 +3,10 @@ import styled from "styled-components"
 export const MeusProjetos = styled.section`
 background-color:#B0C4DE;
 height:88vh;
+@media (max-width: 500px){
+    background-color: aquamarine;
+    height: 150vh;
+}
 `
 
 export const Titulo = styled.h1`
